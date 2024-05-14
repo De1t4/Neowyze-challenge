@@ -13,7 +13,18 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'red': '#AD2116',
+        'green: ': '#2de92d',
+        'silver': '#ecebff',
+        'gold': "#ffd700",
+        'blue': "#12329D",
+
+      },
     },
+    fontFamily: {
+      'StarJedi': ['StarJedi', 'sans-serif',]
+    }
   },
   plugins: [],
 }
