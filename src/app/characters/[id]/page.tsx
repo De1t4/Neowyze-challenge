@@ -33,7 +33,7 @@ const Page = () => {
     <main className="text-gray-100 max-md:p-6 flex flex-col justify-center items-center p-12 bg-gray-800 min-h-screen">
       {character?.detail == NOT_FOUND 
       ? <>
-      <p className='font-StarJedi text-gold text-4xl text-center'>i've got a bad feeling about this.</p>
+      <p className='font-StarJedi text-gold text-4xl text-center'>i ve got a bad feeling about this.</p>
       <Link href={"/"}>
         <button className=' my-4 p-4 text-white rounded-md bg-blue font-semibold  border-2 transition-all duration-300 hover:scale-105 border-gray-900  m-auto'>Home</button>
       </Link>

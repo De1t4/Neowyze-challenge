@@ -32,7 +32,7 @@ const Page = () => {
       <h1 className=' font-StarJedi text-gold font-bold  text-center text-5xl mb-8'>Films Star Wars</h1>
       <section className="grid grid-cols-3 max-md:grid-cols-1  flex-col items-center gap-y-10 justify-between  ">
         {films?.results.map((film, index)=>(
-          <CardFilms index={index} episode_id={film.episode_id} title={film.title}  />
+          <CardFilms key={index} index={index} episode_id={film.episode_id} title={film.title}  />
         ))
         }
       </section>

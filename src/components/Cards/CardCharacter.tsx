@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 import { getIdFromURL } from '@/app/utils/utils';
-import { CardCharacterProps } from '@/services/interface';
+import { CardCharacterProps } from '@/app/services/interface';
 
 const CardCharacter:React.FC<CardCharacterProps> = ({url, name, eye_color, gender}) => {
   return (

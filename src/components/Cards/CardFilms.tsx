@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import { CardFilmProps } from '@/services/interface';
+import { CardFilmProps } from '@/app/services/interface';
 
 const CardFilms:React.FC<CardFilmProps> = ({index, episode_id, title}) => {
   return (

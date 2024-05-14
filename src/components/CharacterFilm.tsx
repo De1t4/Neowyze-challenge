@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { API } from '@/app/utils/utils';
-import { CharacterProps } from '../services/interface';
+import { CharacterProps } from '@/app/services/interface';
 
 const CharacterFilm = ({ID_CHARACTER}:{ID_CHARACTER: string}) => {
   const [character, setCharacter] = useState<CharacterProps>()

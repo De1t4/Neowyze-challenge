@@ -91,7 +91,7 @@ const Page = () => {
         </div>
       </div>
       {
-        filteredPeople().length == 0 && <h1 className=' text-2xl font-semibold font-StarJedi'>People Don't Found</h1>
+        filteredPeople().length == 0 && <h1 className=' text-2xl font-semibold font-StarJedi'>People Dont Found</h1>
       }
       <section className=" w-[60rem] max-lg:w-full ">
         <ol className='grid grid-cols-5 max-lg:grid-cols-3 max-md:grid-cols-2  gap-8'>
