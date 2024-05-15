@@ -1,35 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Getting Started
+To get started with the development server, run one of the following commands:
 
-## Getting Started
-
-First, run the development server:
-
-```bash
+```
+bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the server is running, open http://localhost:3000 in your browser to see the application in action.
 
-You can start editing the page by modifying `src/page.tsx`. The page auto-updates as you edit the file.
+You can begin editing the page by modifying src/page.tsx. The page will automatically update as you make changes.
 
-## Despliegue 📦
-```bash
-<a href="https://neowyze-challenge.netlify.app/">https://neowyze-challenge.netlify.app/</a>
+Deployment 📦
+```
+The project is deployed on Netlify. You can view the live application here:
+Star Wars Challenge
 ```
 
-## Stacks 🛠️
-```bash
-• Front End:
-• HTML5 | CSS3 | TypeScript | Tailwind CSS | Next.Js
+Technology Stack 🛠️
+The following technologies were used to build this project:
+```
+Front End:
+HTML5
+CSS3
+TypeScript
+Tailwind CSS
+Next.js
 ```
 
-## Font text
-```bash
+Font Information
+The font used for the text in this project is "Star Jedi," which was sourced from:
+Star Jedi Font on DaFont
 https://www.dafont.com/es/star-jedi.font
-```
