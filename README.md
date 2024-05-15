@@ -1,6 +1,6 @@
 <h1>Challenge Neowyze</h1> 
 
-<img src="https://sos.neowyze.tech/web/neowyze_only_logo.webp"/>
+<img src="https://sos.neowyze.tech/web/neowyze_only_logo.webp"  width="100px" height="100px"/>
 
 Create for Mauricio Chambi:
 https://www.linkedin.com/in/mauricio-chambi-7a90b724a/
