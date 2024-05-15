@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Challenge Neowyze</h1> 
 
-## Getting Started
+<img src="https://sos.neowyze.tech/web/neowyze_only_logo.webp"  width="100px" height="100px"/>
 
-First, run the development server:
+Create for Mauricio Chambi:
+https://www.linkedin.com/in/mauricio-chambi-7a90b724a/
 
-```bash
+Getting Started
+To get started with the development server, run one of the following commands:
+
+```
+bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once the server is running, open http://localhost:3000 in your browser to see the application in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can begin editing the page by modifying src/page.tsx. The page will automatically update as you make changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Deployment 📦
+```
+The project is deployed on Netlify. You can view the live application here:
+Star Wars Challenge
+https://neowyze-challenge.netlify.app/
+```
 
-## Learn More
+Technology Stack 🛠️
+The following technologies were used to build this project:
+```
+Front End:
+HTML5
+CSS3
+TypeScript
+Tailwind CSS
+Next.js
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Font Information
+The font used for the text in this project is "Star Jedi," which was sourced from:
+Star Jedi Font on DaFont
+https://www.dafont.com/es/star-jedi.font
