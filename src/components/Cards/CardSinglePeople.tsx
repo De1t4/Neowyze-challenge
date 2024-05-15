@@ -14,9 +14,9 @@ interface CardSinglePeople{
 
 const CardSinglePeople:React.FC<CardSinglePeople>= ({birth_year, hair_color,name, skin_color, mass, eye_color, height}) => {
   return (
-    <section className=' w-96 h-max border-[1px] border-gray-500 flex flex-col bg-gray-900 p-4 rounded-lg  justify-center items-center'>
-      <h1 className=' text-gold font-semibold text-2xl text-center font-StarJedi'>{name}</h1>
-      <div className=" my-4">
+    <section className=' w-96 h-max border-[1px] border-gray-500 flex flex-col bg-gray-900 p-4 rounded-lg items-center '>
+      <h1 className=' text-gold font-semibold text-2xl text-center font-StarJedi lowercase'>{name}</h1>
+      <div className=" w-[280px] h-[380px] flex justify-center items-center my-2">
         <Image  src={'/stormtrooper.jpg'} alt={'star-wars image'} className=' rounded-lg transition-all duration-300 cursor-pointer hover:brightness-75' width={250} height={200}/>
       </div>
       <div className=" flex  justify-between  gap-14 text-sm">

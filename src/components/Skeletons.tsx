@@ -27,40 +27,40 @@ export const SkeletonFilms = () => {
 export const SkeletonPeople = () => {
   return (
     <>
-    <figure className='p-4 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
-        <div className=' h-[220px] w-[150px] rounded-sm animate-pulse bg-slate-600'></div>
+    <figure className='p-4 max-md:p-3 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
+        <div className=' h-[220px] w-[150px] max-md:w-full  rounded-sm animate-pulse bg-slate-600'></div>
         <div className=" text-gray-100 gap-y-2 mt-2  flex flex-col justify-center items-center">
           <p className=' w-32 rounded-sm h-3 animate-pulse bg-slate-600'></p>
           <p className=' w-32 h-3 rounded-sm animate-pulse bg-slate-600'></p>
           <p className=' w-32 h-3 rounded-sm animate-pulse bg-slate-600'></p>
         </div>
     </figure>
-    <figure className='p-4 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
-        <div className=' h-[220px] w-[150px] rounded-sm animate-pulse bg-slate-600'></div>
+    <figure className='p-4 max-md:p-3 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
+        <div className=' h-[220px] w-[150px] max-md:w-full  rounded-sm animate-pulse bg-slate-600'></div>
         <div className=" text-gray-100 gap-y-2 mt-2  flex flex-col justify-center items-center">
           <p className=' w-32 rounded-sm h-3 animate-pulse bg-slate-600'></p>
           <p className=' w-32 h-3 rounded-sm animate-pulse bg-slate-600'></p>
           <p className=' w-32 h-3 rounded-sm animate-pulse bg-slate-600'></p>
         </div>
     </figure>
-    <figure className='p-4 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
-        <div className=' h-[220px] w-[150px] rounded-sm animate-pulse bg-slate-600'></div>
+    <figure className='p-4 max-md:p-3 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
+        <div className=' h-[220px] w-[150px] max-md:w-full  rounded-sm animate-pulse bg-slate-600'></div>
         <div className=" text-gray-100 gap-y-2 mt-2  flex flex-col justify-center items-center">
           <p className=' w-32 rounded-sm h-3 animate-pulse bg-slate-600'></p>
           <p className=' w-32 h-3 rounded-sm animate-pulse bg-slate-600'></p>
           <p className=' w-32 h-3 rounded-sm animate-pulse bg-slate-600'></p>
         </div>
     </figure>
-    <figure className='p-4 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
-        <div className=' h-[220px] w-[150px] rounded-sm animate-pulse bg-slate-600'></div>
+    <figure className='p-4 max-md:p-3 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
+        <div className=' h-[220px] w-[150px] max-md:w-full  rounded-sm animate-pulse bg-slate-600'></div>
         <div className=" text-gray-100 gap-y-2 mt-2  flex flex-col justify-center items-center">
           <p className=' w-32 rounded-sm h-3 animate-pulse bg-slate-600'></p>
           <p className=' w-32 h-3 rounded-sm animate-pulse bg-slate-600'></p>
           <p className=' w-32 h-3 rounded-sm animate-pulse bg-slate-600'></p>
         </div>
     </figure>
-    <figure className='p-4 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
-        <div className=' h-[220px] w-[150px] rounded-sm animate-pulse bg-slate-600'></div>
+    <figure className='p-4 max-md:p-3 flex flex-col justify-center items-center transition-all duration-400  rounded-md bg-gradient-to-r from-slate-900 to-slate-800 border-[1px] hover:scale-105 border-gray-700 hover:border-blue'>
+        <div className=' h-[220px] w-[150px] max-md:w-full  rounded-sm animate-pulse bg-slate-600'></div>
         <div className=" text-gray-100 gap-y-2 mt-2  flex flex-col justify-center items-center">
           <p className=' w-32 rounded-sm h-3 animate-pulse bg-slate-600'></p>
           <p className=' w-32 h-3 rounded-sm animate-pulse bg-slate-600'></p>

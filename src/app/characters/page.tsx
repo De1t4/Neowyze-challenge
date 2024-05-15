@@ -5,6 +5,7 @@ import { CharacterProps } from '@/app/services/interface';
 import { API, MAX_PAGES, MIN_PAGES, ONE_NUMBER } from '@/app/utils/utils';
 import dynamic from 'next/dynamic';
 import React, { useEffect, useState } from 'react';
+import FilterPeople from '@/components/FilterPeople';
 
 
 const CardPeople = dynamic(() => import('@/components/Cards/CardCharacter'), 
@@ -56,42 +57,21 @@ const Page = () => {
     }
   }
 
+  const getValueGender = (e:React.ChangeEvent<HTMLSelectElement>) =>{
+    setGender(e.target.value)
+  }
+
+  const getEyesColorValue = (e:React.ChangeEvent<HTMLSelectElement>) =>{
+    setEyesColor(e.target.value)
+  }
+
+
   return (
-    <>
+    <section className='text-gray-100 flex min-h-screen flex-col items-center  gap-4 px-12 py-6  bg-gray-800'>
       <h1 className='font-StarJedi text-gold font-bold  text-center text-5xl mb-8'>Characters Star Wars</h1>
-      <div className="flex justify-between w-[60rem] max-md:w-full mb-4 max-lg:w-full">
-        <div className="flex flex-col">
-          <label htmlFor="gender">Gender</label>
-          <select name="gender" id="gender" value={ gender } onChange={(e) => setGender(e.target.value) } className=' border-[1px] rounded-md h-8 bg-gray-900 font-semibold mr-4 mb-4 text-gray-100 w-40 max-md:w-full'>
-            <option value="all" className=''>All</option>
-            <option value="female">Female</option>
-            <option value="male">Male</option>
-            <option value="none">None</option>
-            <option value="hermaphrodite">Hermaphrodite</option>
-          </select>
-        </div>
-        <div className="flex flex-col">
-          <label htmlFor="eye-color">Eye Color</label>
-          <select name="eye-color" id="eye-color" value={ eyesColor } onChange={(e) => setEyesColor(e.target.value) } className='border-[1px] rounded-md h-8 bg-gray-900 font-semibold mr-4 mb-4 text-gray-100 w-40 '>
-            <option value="all">All</option>
-            <option value="blue">Blue</option>
-            <option value="yellow">Yellow</option>
-            <option value="brown">Brown</option>
-            <option value="blue-gray">Blue-gray</option>
-            <option value="red">Red</option>
-            <option value="orange">Orange</option>
-            <option value="hazel">Hazel</option>
-            <option value="black">Black</option>
-            <option value="pink">Pink</option>
-            <option value="green">Green</option>
-            <option value="gold">Gold</option>
-            <option value="white">White</option>
-            <option value="none">None</option>
-          </select>
-        </div>
-      </div>
+      <FilterPeople getValueGender={getValueGender} getEyesColorValue={getEyesColorValue}/>
       {
-        filteredPeople().length == 0 && <h1 className=' text-2xl font-semibold font-StarJedi'>People Dont Found</h1>
+        filteredPeople().length == 0 && <h1 className=' lowercase text-2xl font-semibold font-StarJedi'>People Dont Found</h1>
       }
       <section className=" w-[60rem] max-lg:w-full ">
         <ol className='grid grid-cols-5 max-lg:grid-cols-3 max-md:grid-cols-2  gap-8'>
@@ -106,7 +86,7 @@ const Page = () => {
 
       <BtnChangePage page={page} prevPage={prevPage} nextPage={nextPage}/>
 
-    </>
+    </section>
   );
 }
 
