@@ -18,6 +18,7 @@ Deployment 📦
 ```
 The project is deployed on Netlify. You can view the live application here:
 Star Wars Challenge
+https://neowyze-challenge.netlify.app/
 ```
 
 Technology Stack 🛠️
