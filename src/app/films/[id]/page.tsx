@@ -42,7 +42,6 @@ const Page = () => {
       </>
       :<>
         <CardCharacterSingle title={film?.title} episode_id={film?.episode_id} director={film?.director}/>
-        <Link href={"films/1/characters"}>Mas</Link>
         <button onClick={() => setShowMore(!showMore)} className=' my-4 p-4 rounded-md bg-blue font-semibold  border-2 transition-all duration-300 hover:scale-105 border-gray-900  m-auto'>More Characters</button>
         {showMore &&
         <section>
